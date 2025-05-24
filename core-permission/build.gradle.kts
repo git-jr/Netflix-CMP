@@ -21,6 +21,8 @@ kotlin {
                 implementation(libs.moko.permissions.gallery)
                 implementation(compose.components.resources)
                 implementation(libs.koin.core)
+
+//                api("io.github.mirzemehdi:kmpnotifier:1.5.1")
             }
         }
     }
