@@ -27,6 +27,17 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>processing</string>
+		<string>fetch</string>
+	</array>
+
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+    	<string>com.codandotv.streamplayerapp.KotlinProject</string>
+    </array>
 	<key>UILaunchScreen</key>
 	<dict/>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -46,9 +57,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSCameraUsageDescription</key>
-    <string>We need access to your camera for...</string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>We need access to your photo library for...</string>
 </dict>
 </plist>
