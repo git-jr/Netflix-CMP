@@ -11,13 +11,13 @@ object NotifierHelper {
         val notifier = NotifierManager.getLocalNotifier()
         notifier.notify {
             id= Random.nextInt(0, Int.MAX_VALUE)
-            title = "Task Registrada"
-            body = "Corpo da task Registrada Body message from KMPNotifier"
+            title = "Tarefa Registrada"
+            body = "Corpo da task Registrada"
             payloadData = mapOf(
-                Notifier.KEY_URL to "https://github.com/mirzemehdi/KMPNotifier/",
+                Notifier.KEY_URL to "https://github.com/codandotv",
                 "extraKey" to "randomValue"
             )
-            image = NotificationImage.Url("https://github.com/user-attachments/assets/a0f38159-b31d-4a47-97a7-cc230e15d30b")
+            image = NotificationImage.Url("https://github.com/codandotv.png?size=300")
         }
     }
 
@@ -26,13 +26,13 @@ object NotifierHelper {
         val notifier = NotifierManager.getLocalNotifier()
         notifier.notify {
             id= Random.nextInt(0, Int.MAX_VALUE)
-            title = "Task disparada"
-            body = "Corpo da task disparada Body message from KMPNotifier"
+            title = "Tarefa disparada"
+            body = "Corpo da task disparada"
             payloadData = mapOf(
-                Notifier.KEY_URL to "https://github.com/mirzemehdi/KMPNotifier/",
+                Notifier.KEY_URL to "https://github.com/codandotv",
                 "extraKey" to "randomValue"
             )
-            image = NotificationImage.Url("https://github.com/user-attachments/assets/a0f38159-b31d-4a47-97a7-cc230e15d30b")
+            image = NotificationImage.Url("https://github.com/codandotv.png?size=300")
         }
     }
 }

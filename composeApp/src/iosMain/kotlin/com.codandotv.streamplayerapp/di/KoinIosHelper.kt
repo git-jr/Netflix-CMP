@@ -16,15 +16,4 @@ class KoinIosHelper {
             modules(AppModule.list + backgroundModule)
         }
     }
-
-//    Original
-//    fun initKoin(lottieViewProvider: LottieViewProvider) {
-//        startKoin {
-//            modules(AppModule.list + module {
-//                single<LottieViewProvider> {
-//                    lottieViewProvider
-//                }
-//            })
-//        }
-//    }
 }

@@ -36,7 +36,7 @@
 
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
     <array>
-    	<string>com.codandotv.streamplayerapp.KotlinProject</string>
+    	<string>com.codandotv.streamplayerapp</string>
     </array>
 	<key>UILaunchScreen</key>
 	<dict/>
